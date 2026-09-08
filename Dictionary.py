@@ -33,3 +33,23 @@ student["name"]="ashu"
 print(student)
 print(student["subjets"])
 print(student["subjets"]["phy"])
+
+
+student1 = {
+    "name": "Shivam",
+    "age": 22,
+    "course": "B.Tech"
+}
+
+print(student1)
+print(student1["name"])
+
+student = {
+    "name": "Shivam",
+    "age": 22
+}
+
+student["age"] = 23
+student["city"] = "Bareilly"
+
+print(student)

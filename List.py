@@ -11,7 +11,7 @@ student[0]="kapil"
 print(student)
 print(len(student))
 
-*/-/////]
+*/-/////
 movie1=input("Enter your Movie1 : ")
 movie2=input("Enter your Movie2: ")
 movie3=input("Enter your Movie3 : ")
@@ -20,3 +20,15 @@ movie.append(movie2)
 movie.append(movie3)
 
 print(movie)
+
+fruits = ["apple", "banana", "mango"]
+
+print(fruits)
+print(fruits[0])
+
+numbers = [10, 20, 30]
+
+numbers.append(40)
+numbers.remove(20)
+
+print(numbers)
