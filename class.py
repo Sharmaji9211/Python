@@ -31,3 +31,62 @@ class student2():
 
 s1=student2("ShivamSharma",80,75,95)
 s1.average()
+
+class Student:
+    name = "Shivam"
+    age = 24
+
+s1 = Student()
+
+print(s1.name)
+print(s1.age)
+
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+s1 = Student("Shivam", 24)
+
+print(s1.name)
+print(s1.age)
+
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def study(self):
+        print(self.name, "is studying")
+
+s1 = Student("Shivam")
+
+s1.study()
+
+
+class Calculator:
+    def add(self, a, b):
+        return a + b
+
+    def subtract(self, a, b):
+        return a - b
+
+c = Calculator()
+
+print(c.add(10, 5))
+print(c.subtract(10, 5))
+
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def display(self):
+        print("Name:", self.name)
+        print("Marks:", self.marks)
+
+s1 = Student("Shivam", 85)
+
+s1.display()
